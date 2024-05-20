@@ -9,4 +9,4 @@
 6. [__Conclusão__](#Conclusão)
 
 # __ Introdução __
-Neste trabalho vamos apresentar a implementação de uma versão simplificada do jogo Pac-Man, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
+Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de corrida de motos chamado MotoRider, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
