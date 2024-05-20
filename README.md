@@ -8,7 +8,7 @@
 5. [__Análise dos Códigos Disponibilizados__](#analise)
 6. [__Conclusão__](#Conclusão)
 
-#  Introdução
+# __Introdução__
 Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de corrida de motos chamado MotoRider, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
 
 <p align="center">
@@ -64,16 +64,22 @@ O objetivo de MotoRider é guiar a moto do jogador pela estrada o máximo de tem
 5. Pontuação:
    - A pontuação é baseada no tempo que o jogador consegue sobreviver sem colidir com os carros inimigos.
 
-## Menu
+## __Menu__
 
-# Conclusão
+# __Estrutura do Projeto__
+
+O projeto MotoRider foi estruturado de forma modular, facilitando a manutenção e expansão. As principais classes do projeto são:
+
+* [|-- Button.cs](#button)
+* [|-- Enemy.cs](#enemy)
+* [|-- EnemyGenerator.cs](#EnemyGenerator)
+* [|-- Game1.cs](#game1)
+* [|-- Player.cs](#player)
+* [|-- Program.cs](#program)
+
+## __Descrição das Classes:__
+
+
+# __Conclusão__
 MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final do usuário.
-
-
-
-
-
-
-
-
 
