@@ -692,6 +692,33 @@ namespace TDV
     }
 }
 ```
+## __Decisões Tomadas__
+1. Controles Intuitivos:
+   - Utilização das setas do teclado para movimentar a moto, oferecendo uma experiência de controle responsiva e intuitiva.
+
+2. Estilo Visual Retro:
+   - Escolha do estilo pixel art para os gráficos, proporcionando um visual clássico e de fácil interpretação.
+
+3. Otimização de Desempenho:
+   - Implementação de pooling para gerenciamento eficiente de memória e garantia de jogabilidade fluida.
+
+4. Dificuldade Progressiva:
+   - Utilização de um sistema de geração pseudoaleatória para os carros inimigos, assegurando uma dificuldade crescente e balanceada.
+
+5. Sistema de Colisão Preciso:
+   - Implementação de bounding boxes para detecção de colisões, garantindo precisão e eficiência.
+
+# __Aspectos Técnicos__
+
+## Framework MonoGame
+O framework MonoGame foi escolhido devido à sua flexibilidade e suporte multiplataforma. Permite a criação de jogos 2D e 3D utilizando C#, facilitando o desenvolvimento e a manutenção do código.
+
+## Otimização
+Durante o desenvolvimento, a otimização do código foi uma prioridade para garantir uma experiência de jogo fluida. Técnicas como o pooling de objetos foram utilizadas para gerenciar a memória de forma eficiente.
+
+## Detecção de Colisões
+A detecção de colisões foi implementada utilizando bounding boxes. Esta técnica é eficiente e oferece a precisão necessária para um jogo de corrida, onde a resposta rápida às interações é crucial.
+
 # __Conclusão__
 MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final do usuário.
 
