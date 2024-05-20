@@ -64,3 +64,16 @@ O objetivo de MotoRider é guiar a moto do jogador pela estrada o máximo de tem
 5. Pontuação:
    - A pontuação é baseada no tempo que o jogador consegue sobreviver sem colidir com os carros inimigos.
 
+## Menu
+
+# Conclusão
+MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final do usuário.
+
+
+
+
+
+
+
+
+
