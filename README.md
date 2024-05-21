@@ -746,15 +746,15 @@ A detecção de colisões foi implementada utilizando bounding boxes. Esta técn
 
 * __Imagem do Menu Principal__
   <p align="center">
-  <img src="https://i.imgur.com/4GLREKh.png"  alt="MotoRider" width=800>
+  <img src="https://i.imgur.com/4GLREKh.png"  alt="MotoRider" width=600>
   </p>
 * __Imagem do Jogo em Execução__
   <p align="center">
-  <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=800>
+  <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=600>
   </p>
 * __Imagem da Tela de Game Over__
   <p align="center">
-  <img src="https://i.imgur.com/hO977mK.png"  alt="MotoRider" width=800>
+  <img src="https://i.imgur.com/hO977mK.png"  alt="MotoRider" width=600>
   </p>
 
 
