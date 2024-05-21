@@ -14,7 +14,9 @@ Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de cor
 <p align="center">
   <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=800>
 </p>
+
 <a name="estrutura"></a>
+
 ## __Estrutura de Pastas:__
 
 * __MotoRider/__
