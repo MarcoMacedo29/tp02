@@ -2,7 +2,7 @@
 
 # __Indíce__
 1. [__Introdução__](#Introdução)
-2. [__Implementação__](#Implementação)
+2. [__Estrutura de Pastas__](#estrutura)
 3. [__Instruções de Jogo__](#instru)
 4. [__Decisões de Implementação__](#decisoes)
 5. [__Análise dos Códigos Disponibilizados__](#analise)
@@ -14,7 +14,7 @@ Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de cor
 <p align="center">
   <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=800>
 </p>
-
+<a name="estrutura"></a>
 ## __Estrutura de Pastas:__
 
 * __MotoRider/__
