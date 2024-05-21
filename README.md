@@ -54,10 +54,10 @@ O objetivo de MotoRider é guiar a moto do jogador pela estrada o máximo de tem
 
 <a name="control"></a>
 ## __Controlos:__
-* Tecla W : Move a moto para cima.
-* Tecla S : Move a moto para baixo.
-* Tecla A : Move a moto para a esquerda.
-* Tecla D : Move a moto para a direita.
+* Tecla W : Movimenta a moto para cima.
+* Tecla S : Movimenta a moto para baixo.
+* Tecla A : Movimenta a moto para a esquerda.
+* Tecla D : Movimenta a moto para a direita.
 
 <a name="jogabilidade"></a>
 ## __Jogabilidade:__
@@ -66,10 +66,10 @@ O objetivo de MotoRider é guiar a moto do jogador pela estrada o máximo de tem
    - O jogo começa com a moto posicionada na parte inferior da tela.
 
 2. Movimentação:
-   - Use as setas do teclado para desviar dos carros inimigos que aparecem de forma aleatória na pista.
+   - Use as teclas W,A,S,D do teclado para desviar dos carros inimigos que aparecem de forma aleatória na pista.
 
 3. Inimigos:
-   - Carros inimigos surgem na parte superior da tela e se movem para baixo. A velocidade e a frequência dos carros aumentam conforme o tempo de jogo.
+   - Carros inimigos surgem na parte superior da tela e movem-se para baixo. A velocidade e a frequência dos carros aumentam conforme o tempo de jogo.
 
 4. Colisões:
    - Se a moto colidir com um carro inimigo, o jogo termina e a pontuação final é apresentada.
@@ -94,7 +94,7 @@ O projeto MotoRider foi estruturado de forma modular, facilitando a manutenção
 
 <a name="button"></a>
 ### __Button.cs__
-A classe Button gerencia os botões da interface do usuário (UI) no jogo. Este componente é essencial para interações básicas, como reiniciar o jogo ou sair.
+A classe Button trabalha com os botões da interface do usuário (UI) no jogo. Esta componente é essencial para interações básicas, como reiniciar o jogo ou sair.
 
 ```
 using Microsoft.Xna.Framework;
@@ -575,7 +575,7 @@ namespace TDV
 ```
 <a name="player"></a>
 ### __Player.cs__
-Esta classe representa o jogador do jogo MotoRider e é responsável por sua interação com o ambiente e sua representação visual
+Esta classe representa o jogador do jogo MotoRider e é responsável pela interação com o ambiente e sua representação visual
 
 ```
 using Microsoft.Xna.Framework;
@@ -726,17 +726,16 @@ namespace TDV
 # __Aspectos Técnicos__
 
 <a name="framework"></a>
-## Framework MonoGame
+## __Framework MonoGame__
 O framework MonoGame foi escolhido devido à sua flexibilidade e suporte multiplataforma. Permite a criação de jogos 2D e 3D utilizando C#, facilitando o desenvolvimento e a manutenção do código.
 
 <a name="otimizacao"></a>
-## Otimização
+## __Otimização__
 Durante o desenvolvimento, a otimização do código foi uma prioridade para garantir uma experiência de jogo fluida. Técnicas como o pooling de objetos foram utilizadas para gerenciar a memória de forma eficiente.
 
 <a name="colisoes"></a>
-## Detecção de Colisões
+## __Detecção de Colisões__
 A detecção de colisões foi implementada utilizando bounding boxes. Esta técnica é eficiente e oferece a precisão necessária para um jogo de corrida, onde a resposta rápida às interações é crucial.
 
 # __Conclusão__
-MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final do usuário.
-
+MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final.
