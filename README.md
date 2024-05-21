@@ -42,7 +42,7 @@ Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de cor
     - [|-- Program.cs](#program)
 
 <p></p>
-  <img src="https://i.imgur.com/r3hdOui.png"  alt="Estruturadepastas" width=400>
+  <img src="https://i.imgur.com/r3hdOui.png"  alt="Estruturadepastas" width=450>
 
 <a name="instru"></a>
 
