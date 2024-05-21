@@ -144,7 +144,7 @@ namespace TDV
     }
 }
 ```
-<a name="#enemy"></a>
+<a name="enemy"></a>
 ### __Enemy.cs__
 A classe Enemy representa os carros inimigos na pista. Cada instância possui métodos para movimentação e detecção de colisão com o jogador.
 
@@ -240,7 +240,7 @@ namespace TDV
     }
 }
 ```
-<a name="#EnemyGenerator"></a>
+<a name="EnemyGenerator"></a>
 ### __EnemyGenerator.cs__
 A classe EnemyGenerator gerencia a criação e posicionamento dos carros inimigos na pista. Utiliza um sistema de tempo para gerar inimigos em intervalos regulares.
 
@@ -316,7 +316,7 @@ namespace TDV
     }
 }
 ```
-<a name="#game1"></a>
+<a name="game1"></a>
 ### __Game1.cs__
 Esta classe gerencia o ciclo de vida do jogo, integrando todas as funcionalidades e controlando o fluxo do jogo.
 
@@ -560,7 +560,7 @@ namespace TDV
     }
 }
 ```
-<a name="#player"></a>
+<a name="player"></a>
 ### __Player.cs__
 Esta classe representa o jogador do jogo MotoRider e é responsável por sua interação com o ambiente e sua representação visual
 
@@ -671,7 +671,7 @@ namespace TDV
     }
 }
 ```
-<a name="#program"></a>
+<a name="program"></a>
 ### __Program.cs__
 A classe Program é o ponto de entrada do programa MotoRider. No método Main(), uma instância da classe Game1 é criada e o método Run() é chamado para iniciar o jogo.
 Em resumo, a classe Program inicializa e executa o jogo MotoRider
