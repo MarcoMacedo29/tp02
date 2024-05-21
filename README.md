@@ -13,8 +13,9 @@
 5. [__Aspectos Técnicos___](#aspetos)
    - [__Framework MonoGame__](#framework)
    - [__Otimização__](#otimizacao)
-   - [__Detecção de Colisões__](#decistomadas) 
-6. [__Conclusão__](#Conclusão)
+   - [__Detecção de Colisões__](#colisoes)
+6. [__Recursos Visuais___](#recursos)
+7. [__Conclusão__](#Conclusão)
 
 # __Introdução__
 Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de corrida de motos chamado MotoRider, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
@@ -739,6 +740,23 @@ Durante o desenvolvimento, a otimização do código foi uma prioridade para gar
 <a name="colisoes"></a>
 ## __Detecção de Colisões__
 A detecção de colisões foi implementada utilizando bounding boxes. Esta técnica é eficiente e oferece a precisão necessária para um jogo de corrida, onde a resposta rápida às interações é crucial.
+
+<a name="recursos"></a>
+# __Recursos Visuais__
+
+* __Imagem do Menu Principal__
+  <p align="center">
+  <img src="https://i.imgur.com/4GLREKh.png"  alt="MotoRider" width=800>
+  </p>
+* __Imagem do Jogo em Execução__
+  <p align="center">
+  <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=800>
+  </p>
+* __Imagem da Tela de Game Over__
+  <p align="center">
+  <img src="https://i.imgur.com/hO977mK.png"  alt="MotoRider" width=800>
+  </p>
+
 
 # __Conclusão__
 MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controlos intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final.
