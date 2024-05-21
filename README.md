@@ -20,7 +20,7 @@
 Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de corrida de motos chamado MotoRider, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
 
 <p align="center">
-  <img src="https://i.imgur.com/r3hdOui.png"  alt="MotoRider" width=800>
+  <img src="https://i.imgur.com/jfN51Is.png"  alt="MotoRider" width=800>
 </p>
 
 <a name="estrutura"></a>
@@ -42,7 +42,7 @@ Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de cor
     - [|-- Program.cs](#program)
 
 <p></p>
-  <img src="https://i.imgur.com/UjWmrWv.png"  alt="Estruturadepastas" width=500>
+  <img src="https://i.imgur.com/r3hdOui.png"  alt="Estruturadepastas" width=500>
 
 <a name="instru"></a>
 
