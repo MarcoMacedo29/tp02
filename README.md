@@ -104,7 +104,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TDV
+namespace MOTORIDER
 {
     class Button
     {
@@ -156,6 +156,7 @@ namespace TDV
         }
     }
 }
+
 ```
 <a name="enemy"></a>
 ### __Enemy.cs__
@@ -169,7 +170,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TDV
+namespace MOTORIDER
 {
     public class Enemy
     {
@@ -252,6 +253,8 @@ namespace TDV
 
     }
 }
+
+
 ```
 <a name="EnemyGenerator"></a>
 ### __EnemyGenerator.cs__
@@ -265,7 +268,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TDV
+namespace MOTORIDER
 {
     class EnemyGenerator
     {
@@ -328,6 +331,7 @@ namespace TDV
 
     }
 }
+
 ```
 <a name="game1"></a>
 ### __Game1.cs__
@@ -344,7 +348,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TDV
+namespace MOTORIDER
 {
     public class Game1 : Game
     {
@@ -354,7 +358,7 @@ namespace TDV
         private Button bPlay, btnResume, btnQuit;
         EnemyGenerator enemyg;
         Enemy enemy;
-        private float backgroundSpeed = 2f;
+        private float backgroundSpeed = 5f;
         
         enum GameState 
         { 
@@ -433,16 +437,16 @@ namespace TDV
 
             enemyg = new EnemyGenerator(Content.Load<Texture2D>("Carro"), new Rectangle(screenWidth / 6 , (-8) * (screenHeight / 8), (screenWidth - 2 * (screenWidth / 6)), screenHeight / 3), density);
 
-            btnResume = new Button(Content.Load<Texture2D>("resumeButton"), _graphics.GraphicsDevice);
+            btnResume = new Button(Content.Load<Texture2D>("BotaoRetomar"), _graphics.GraphicsDevice);
             btnResume.setPosition(new Vector2(320, 240));
             
-            btnQuit = new Button(Content.Load<Texture2D>("quitButton"), _graphics.GraphicsDevice);
+            btnQuit = new Button(Content.Load<Texture2D>("BotaoSair"), _graphics.GraphicsDevice);
             btnQuit.setPosition(new Vector2(320, 300));
 
-            bPlay = new Button(Content.Load<Texture2D>("startButton"), _graphics.GraphicsDevice);
+            bPlay = new Button(Content.Load<Texture2D>("BotaoStart"), _graphics.GraphicsDevice);
             bPlay.setPosition(new Vector2(320, 250));
 
-            tground = Content.Load<Texture2D>("Street");
+            tground = Content.Load<Texture2D>("Estrada");
             pground = new Rectangle(0, 0, screenWidth, screenHeight);
 
             tgameOver = Content.Load<Texture2D>("GameOver");
@@ -533,7 +537,7 @@ namespace TDV
     switch (CurrentGameState)
     {
         case GameState.MainMenu:
-            _spriteBatch.Draw(Content.Load<Texture2D>("menuB"), new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
+            _spriteBatch.Draw(Content.Load<Texture2D>("FundoInicial"), new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
             bPlay.Draw(_spriteBatch);
             btnQuit.Draw(_spriteBatch);
             break;
@@ -572,6 +576,7 @@ namespace TDV
 
     }
 }
+
 ```
 <a name="player"></a>
 ### __Player.cs__
@@ -589,14 +594,14 @@ using System.Reflection.Metadata;
 using System.Text;
 using Microsoft.Xna.Framework.Audio;
 
-namespace TDV
+namespace MOTORIDER
 {
     public class Player : GameComponent
     {
         private SpriteBatch spriteBatch;
         public Vector2 posicao = new Vector2(Game1.screenWidth / 2, Game1.screenHeight / 2);
         public Texture2D textura;
-        public  Vector2 velocidade = new Vector2(50.0f, 50.0f);
+        public Vector2 velocidade = new Vector2(50.0f, 50.0f);
         public Vector2 Origin;
         public double score;
         public double rounded;
@@ -611,7 +616,7 @@ namespace TDV
 
         public override void Update(GameTime gameTime)
         {
-         
+
             bool allowMove = true;
             Vector2 newPosition = posicao;
             KeyboardState keyboardState = Keyboard.GetState();
@@ -631,7 +636,7 @@ namespace TDV
             }
             if (keyboardState.IsKeyDown(Keys.W))
             {
-                
+
                 newPosition.Y -= 5;
             }
 
@@ -639,24 +644,20 @@ namespace TDV
             {
                 allowMove = false; // direita
             }
-            
-            if (newPosition.X < Game1.screenWidth/6.5f)
+
+            if (newPosition.X < Game1.screenWidth / 6.5f)
             {
                 allowMove = false; // esquerda
             }
-          
-
-
 
             if (newPosition.Y < 10)
             {
-                allowMove = false; // cima
+                allowMove = false; 
             }
             if (newPosition.Y + (textura.Height / 5f) > Game1.screenHeight)
             {
-                allowMove = false; // baixo
+                allowMove = false; 
             }
-
 
             if (allowMove)
             {
@@ -680,9 +681,10 @@ namespace TDV
             spriteBatch.Draw(textura, posicao, Color.White);
         }
 
-        
+
     }
 }
+
 ```
 <a name="program"></a>
 ### __Program.cs__
@@ -692,7 +694,7 @@ Em resumo, a classe Program inicializa e executa o jogo MotoRider
 ```
 using System;
 
-namespace TDV
+namespace MOTORIDER
 {
     public static class Program
     {
@@ -704,6 +706,7 @@ namespace TDV
         }
     }
 }
+
 ```
 <a name="decistomadas"></a>
 ## __Decisões Tomadas__
