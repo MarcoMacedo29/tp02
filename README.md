@@ -707,20 +707,20 @@ namespace TDV
 ```
 <a name="decistomadas"></a>
 ## __Decisões Tomadas__
-1. Controles Intuitivos:
-   - Utilização das setas do teclado para movimentar a moto, oferecendo uma experiência de controle responsiva e intuitiva.
+1. __Controlos Intuitivos:__
+     - Utilização das teclas W,A,S,D do teclado para movimentar a moto, oferecendo uma experiência de controle responsiva e intuitiva.
 
-2. Estilo Visual Retro:
-   - Escolha do estilo pixel art para os gráficos, proporcionando um visual clássico e de fácil interpretação.
+2. __Estilo Visual Retro:__
+     - Escolha do estilo pixel art para os gráficos, proporcionando um visual clássico e de fácil interpretação.
 
-3. Otimização de Desempenho:
-   - Implementação de pooling para gerenciamento eficiente de memória e garantia de jogabilidade fluida.
+3. __Otimização de Desempenho:__
+     - Implementação de pooling para gerenciamento eficiente de memória e garantia de jogabilidade fluida.
 
-4. Dificuldade Progressiva:
-   - Utilização de um sistema de geração pseudoaleatória para os carros inimigos, assegurando uma dificuldade crescente e balanceada.
+4. __Dificuldade Progressiva:__
+     - Utilização de um sistema de geração pseudoaleatória para os carros inimigos, assegurando uma dificuldade crescente e balanceada.
 
-5. Sistema de Colisão Preciso:
-   - Implementação de bounding boxes para detecção de colisões, garantindo precisão e eficiência.
+5. __Sistema de Colisão Preciso:__
+     - Implementação de bounding boxes para detecção de colisões, garantindo precisão e eficiência.
 
 <a name="aspetos"></a>
 # __Aspectos Técnicos__
@@ -738,4 +738,4 @@ Durante o desenvolvimento, a otimização do código foi uma prioridade para gar
 A detecção de colisões foi implementada utilizando bounding boxes. Esta técnica é eficiente e oferece a precisão necessária para um jogo de corrida, onde a resposta rápida às interações é crucial.
 
 # __Conclusão__
-MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controles intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final.
+MotoRider é um jogo simples e envolvente que testa os reflexos e habilidades do jogador. O desenvolvimento utilizando MonoGame em C# permitiu a criação de um jogo eficiente e divertido, com controlos intuitivos e um desafio crescente. Este relatório detalha a implementação do jogo, destacando as decisões técnicas e de design que contribuíram para a experiência final.
