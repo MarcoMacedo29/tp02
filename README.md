@@ -79,7 +79,7 @@ O projeto MotoRider foi estruturado de forma modular, facilitando a manutenção
 
 ## __Descrição das Classes:__
 
-<a name="#button"></a>
+<a name="###button"></a>
 ### __Button.cs__
 A classe Button gerencia os botões da interface do usuário (UI) no jogo. Este componente é essencial para interações básicas, como reiniciar o jogo ou sair.
 
