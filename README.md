@@ -2,14 +2,15 @@
 
 # __Indíce__
 1. [__Introdução__](#Introdução)
-2. [__Estrutura de Pastas__](#estrutura)
+2. [__Estrutura de Pastas__](#estrutura) 
    - [__Objetivo__](#obj)
    - [__Controlos__](#control)
    - [__Jogabilidade__](#jogabilidade)
-4. [__Instruções de Jogo__](#instru)
-5. [__Estrutura do Jogo__](#estruturajogo)
-6. [__Análise dos Códigos Disponibilizados__](#analise)
-7. [__Conclusão__](#Conclusão)
+3. [__Instruções de Jogo__](#instru)
+4. [__Estrutura do Jogo__](#estruturajogo)
+   - [__Descrição das Classes__](#desclasse) 
+5. [__Análise dos Códigos Disponibilizados__](#analise)
+6. [__Conclusão__](#Conclusão)
 
 # __Introdução__
 Neste trabalho vamos apresentar a implementação de uma jogo 2D Top Down de corrida de motos chamado MotoRider, desenvolvida utilizando o framework MonoGame em C#. O objetivo é fornecer uma visão geral da estrutura do projeto, decisões de implementação e instruções de jogo. Além disso, será feita uma análise dos códigos disponibilizados, abordando a organização e a lógica implementada.
@@ -84,6 +85,7 @@ O projeto MotoRider foi estruturado de forma modular, facilitando a manutenção
 * [|-- Player.cs](#player)
 * [|-- Program.cs](#program)
 
+<a name="desclasse"></a>
 ## __Descrição das Classes:__
 
 <a name="button"></a>
