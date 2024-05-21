@@ -4,7 +4,7 @@
 1. [__Introdução__](#Introdução)
 2. [__Estrutura de Pastas__](#estrutura)
 3. [__Instruções de Jogo__](#instru)
-4. [__Decisões de Implementação__](#decisoes)
+4. [__Estrutura do Jogo__](#estruturajogo)
 5. [__Análise dos Códigos Disponibilizados__](#analise)
 6. [__Conclusão__](#Conclusão)
 
@@ -66,8 +66,7 @@ O objetivo de MotoRider é guiar a moto do jogador pela estrada o máximo de tem
 5. Pontuação:
    - A pontuação é baseada no tempo que o jogador consegue sobreviver sem colidir com os carros inimigos.
 
-## __Menu__
-
+<a name="estruturajogo"></a>
 # __Estrutura do Projeto__
 
 O projeto MotoRider foi estruturado de forma modular, facilitando a manutenção e expansão. As principais classes do projeto são:
