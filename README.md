@@ -8,8 +8,12 @@
    - [__Jogabilidade__](#jogabilidade)
 3. [__Instruções de Jogo__](#instru)
 4. [__Estrutura do Jogo__](#estruturajogo)
-   - [__Descrição das Classes__](#desclasse) 
-5. [__Análise dos Códigos Disponibilizados__](#analise)
+   - [__Descrição das Classes__](#desclasse)
+   - [__Decisões Tomadas__](#decistomadas) 
+5. [__Aspectos Técnicos___](#aspetos)
+   - [__Framework MonoGame__](#framework)
+   - [__Otimização__](#otimizacao)
+   - [__Detecção de Colisões__](#decistomadas) 
 6. [__Conclusão__](#Conclusão)
 
 # __Introdução__
@@ -701,6 +705,7 @@ namespace TDV
     }
 }
 ```
+<a name="decistomadas"></a>
 ## __Decisões Tomadas__
 1. Controles Intuitivos:
    - Utilização das setas do teclado para movimentar a moto, oferecendo uma experiência de controle responsiva e intuitiva.
@@ -717,14 +722,18 @@ namespace TDV
 5. Sistema de Colisão Preciso:
    - Implementação de bounding boxes para detecção de colisões, garantindo precisão e eficiência.
 
+<a name="aspetos"></a>
 # __Aspectos Técnicos__
 
+<a name="framework"></a>
 ## Framework MonoGame
 O framework MonoGame foi escolhido devido à sua flexibilidade e suporte multiplataforma. Permite a criação de jogos 2D e 3D utilizando C#, facilitando o desenvolvimento e a manutenção do código.
 
+<a name="otimizacao"></a>
 ## Otimização
 Durante o desenvolvimento, a otimização do código foi uma prioridade para garantir uma experiência de jogo fluida. Técnicas como o pooling de objetos foram utilizadas para gerenciar a memória de forma eficiente.
 
+<a name="colisoes"></a>
 ## Detecção de Colisões
 A detecção de colisões foi implementada utilizando bounding boxes. Esta técnica é eficiente e oferece a precisão necessária para um jogo de corrida, onde a resposta rápida às interações é crucial.
 
